@@ -12,6 +12,6 @@
     ),
     url(mainImage.jpg);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   height: 100vh;
 }
