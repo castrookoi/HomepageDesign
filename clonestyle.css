@@ -82,7 +82,30 @@ ul li a:hover {
   border: 1px solid orange;
   margin-top: 13px;
   color: white;
+  border-right: none;
+  font-size: 16px;
+  float: left; 
+  padding: 10px;
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
-  padding: 10px;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  background: orange;
+  border: 2px solid orange;
+  margin-top: 13px;
+  color: white;
+  font-size: 15px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px ;
+}
+
+.btn:focus{
+  outline: none;
+}
+
+.srch:focus{
+  outline:none;
 }
