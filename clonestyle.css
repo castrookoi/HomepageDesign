@@ -1,47 +1,53 @@
-*{
+* {
   margin: 0;
   padding: 0;
   /* box-sizing: border-box; */
 }
 
-.main{
+.main {
   width: 100%;
-  background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(/images/LaptopDark.jpg);
-background-position: center;
-background-size: cover;
-height: 109vh;}
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url(/images/LaptopDark.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+}
 
-.navbar{
+.navbar {
   width: 1200px;
-  height: auto;
+  height: 75px;
   margin: auto;
-  background-color: red;
+  /* background-color: red; */
 }
 
-.icon{
-width: 200px;
-float: left;
-height: inherit;
-/* background-color: yellow; */
+.icon {
+  width: 200px;
+  float: left;
+  height: 70px;
+  /* background-color: yellow; */
 }
 
-.logo{
-   color: white;
-   font-size: 30px;
-   font-family: Arial;
-   padding-left: 20px;
-   float: left;
-   padding-top: 10px;
+.logo {
+  color: white;
+  font-size: 32px;
+  font-family: Arial;
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;
 }
 
-.menu{
+.menu {
   width: 400px;
   float: left;
-  height: inherit;
+  height: 70px;
   /* background: yellow; */
 }
 
-ul{
+ul {
   float: left;
   display: flex;
   justify-items: center;
@@ -68,14 +74,14 @@ ul li a:hover {
   text-decoration: underline;
 }
 
-.search{
+.search {
   width: 330px;
   float: left;
   margin-left: 270px;
 }
 
-.srch{
-  font-family: 'Times New Roman';
+.srch {
+  font-family: "Times New Roman";
   width: 200px;
   height: 40px;
   background: transparent;
@@ -84,7 +90,7 @@ ul li a:hover {
   color: white;
   border-right: none;
   font-size: 16px;
-  float: left; 
+  float: left;
   padding: 10px;
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
@@ -99,13 +105,13 @@ ul li a:hover {
   color: white;
   font-size: 15px;
   border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px ;
+  border-bottom-right-radius: 5px;
 }
 
-.btn:focus{
+.btn:focus {
   outline: none;
 }
 
-.srch:focus{
-  outline:none;
+.srch:focus {
+  outline: none;
 }
