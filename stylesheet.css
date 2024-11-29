@@ -174,3 +174,8 @@ transition: .3s ease;
   border-radius: 10px;
   padding: 25px;
 }
+
+.form h2 {
+  width: 220px;
+  font-family: sans-serif;
+}
