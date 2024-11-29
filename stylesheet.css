@@ -13,7 +13,7 @@
     url(mainImage.jpg);
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  height: 150vh;
 }
 
 .navbar{
@@ -162,4 +162,15 @@ transition: .3s ease;
 .content span {
   color:#ff7200;
   font-weight: 200px;
+}
+
+.form{
+  width: auto;
+  height: 380px;
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
+  position: absolute;
+  top: -20px;
+  left: 870px;
+  border-radius: 10px;
+  padding: 25px;
 }
