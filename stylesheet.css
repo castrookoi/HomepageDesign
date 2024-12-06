@@ -211,3 +211,12 @@ transition: .3s ease;
   font-family: Arial;
 }
 
+.btnn {
+  width: 240px;
+  height: 40px;
+  background: #ff7200;
+  border: none;
+  margin-top: 30px;
+  font-size: 18px;
+  border-radius: 10px;
+}
