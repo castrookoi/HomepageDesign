@@ -14,7 +14,7 @@
     url(/images/LaptopDark.jpg);
   background-position: center;
   background-size: cover;
-  height: 109vh;
+  height: 160vh;
 }
 
 .navbar {
@@ -152,15 +152,30 @@ ul li a:hover {
   font-size: 18px;
   border-radius: 10px;
   cursor: pointer;
-  transition: .3s ease;
+  transition: 0.3s ease;
 }
 
-.content .cn a{
+.content .cn a {
   text-decoration: none;
-  color:black;
-  transition: .3s ease;
+  color: black;
+  transition: 0.3s ease;
 }
 
-.cn:hover{
-  background-color: white;
+.cn:hover {
+  outline: orange;
+}
+.content span {
+  color: #ff7200;
+  font-size: 60px;
+}
+
+.form {
+  width: 250px;
+  height: 380px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0) 50%);
+  position: absolute;
+  top: -20px;
+  left: 870px;
+  border-radius: 10px;
+  padding: 25px;
 }
