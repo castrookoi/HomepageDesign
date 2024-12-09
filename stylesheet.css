@@ -13,7 +13,7 @@
     url(mainImage.jpg);
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  height: 150vh;
 }
 
 .navbar{
@@ -166,12 +166,69 @@ transition: .3s ease;
 }
 
 .form{
+<<<<<<< HEAD
   width: auto;
   height: 380px;
   background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
   position:absolute;
+=======
+  width: 250px;
+  height: 380px;
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
+  position: absolute;
+>>>>>>> 2630ef7eb82d455c2e7adb43e2acdb25d1e59dd3
   top: -20px;
   left: 870px;
   border-radius: 10px;
   padding: 25px;
+<<<<<<< HEAD
 }
+=======
+}
+
+.form h2 {
+  width: 220px;
+  font-family: sans-serif;
+  text-align: center;
+  color: #ff7200;
+  background: #fff; 
+  border-radius: 10px;
+  margin: 2px;
+  padding: 8px;
+
+}
+
+.form input {
+  width: 240px;
+  height: 35px;
+  background: transparent;
+  border-bottom: 1px solid orange;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  font-family: sans-serif;
+}
+
+.form input:focus{
+  outline: none;
+}
+
+::placeholder{
+  color: #fff;
+  font-family: Arial;
+}
+
+.btnn {
+  width: 240px;
+  height: 40px;
+  background: #ff7200;
+  border: none;
+  margin-top: 30px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+>>>>>>> 2630ef7eb82d455c2e7adb43e2acdb25d1e59dd3
