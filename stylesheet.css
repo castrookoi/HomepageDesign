@@ -166,24 +166,14 @@ transition: .3s ease;
 }
 
 .form{
-<<<<<<< HEAD
-  width: auto;
-  height: 380px;
-  background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
-  position:absolute;
-=======
   width: 250px;
   height: 380px;
   background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
   position: absolute;
->>>>>>> 2630ef7eb82d455c2e7adb43e2acdb25d1e59dd3
   top: -20px;
   left: 870px;
   border-radius: 10px;
   padding: 25px;
-<<<<<<< HEAD
-}
-=======
 }
 
 .form h2 {
@@ -231,4 +221,3 @@ transition: .3s ease;
   font-size: 18px;
   border-radius: 10px;
 }
->>>>>>> 2630ef7eb82d455c2e7adb43e2acdb25d1e59dd3
