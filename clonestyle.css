@@ -214,7 +214,7 @@ ul li a:hover {
   outline: none;
 }
 
-::placeholder{
+::placeholder {
   color: #fff;
   font-family: Arial;
 }
@@ -230,24 +230,47 @@ ul li a:hover {
   color: white;
 }
 
-.btnn:hover{
+.btnn:hover {
   background: #fff;
   color: black;
 }
 
-.btnn a{
+.btnn a {
   text-decoration: none;
-  color: #fff;
+  color: black;
+  font-weight: bold;
 }
 
-.form .link{
+.form .link {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
   padding-top: 20px;
   text-align: center;
 }
 
-.form .link a{
+.form .link a {
   text-decoration: none;
   color: #ff7200;
+}
+
+.liw {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.icons a {
+  text-decoration: none;
+  color: white;
+}
+
+.icons ion-icon {
+  color: #fff;
+  font-size: 30px;
+  padding-left: 14px;
+  padding-top: 3px;
+  transition: 0.3 ease;
+}
+
+.icons ion-icon:hover {
+  color: orange;
 }
